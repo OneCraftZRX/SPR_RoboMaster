@@ -7,7 +7,7 @@ def threshold(src):
         ret, dst = cv2.threshold(gray, 130, 255, cv2.THRESH_BINARY)
         cv2.imshow('threshold', dst)
         #输出
-        cv2.imwrite("C:\\Users\\25176\\OneDrive\\Codes\\SPR2024\\TestGit\\MainProject\\robo2.png",dst)
+        cv2.imwrite(r"C:\Users\25176\Resources\Projects\SPR_RoboMaster\Traditional_CV\robo2.png",dst)
         return dst
 
 def open(image):
@@ -16,7 +16,7 @@ def open(image):
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, 6))
     dst = cv2.morphologyEx(binary, cv2.MORPH_OPEN, kernel)
     cv2.imshow("open", dst)
-    cv2.imwrite("C:\\Users\\25176\\OneDrive\\Codes\\SPR2024\\TestGit\\MainProject\\robo3.png",dst)
+    cv2.imwrite(r"C:\Users\25176\Resources\Projects\SPR_RoboMaster\Traditional_CV\robo3.png",dst)
 
 def close(image):
 
@@ -70,9 +70,9 @@ def show_each2_merge_max(img2proc,cnts):
         print("draw",i,"and",i+1)
     cv2.imshow('findmergemax', img2proc)
  
-img = cv2.imread(r'C:\Users\25176\OneDrive\Codes\SPR2024\TestGit\MainWork\robo3.png') 
-img_ori=cv2.imread(r'C:\Users\25176\OneDrive\Codes\SPR2024\TestGit\MainWork\robo.png') 
-img_bin=cv2.imread(r'C:\Users\25176\OneDrive\Codes\SPR2024\TestGit\MainWork\robo.png') 
+img = cv2.imread(r'C:\Users\25176\Resources\Projects\SPR_RoboMaster\Traditional_CV\robo3.png') 
+img_ori=cv2.imread(r'C:\Users\25176\Resources\Projects\SPR_RoboMaster\Traditional_CV\robo.png') 
+img_bin=cv2.imread(r'C:\Users\25176\Resources\Projects\SPR_RoboMaster\Traditional_CV\robo.png') 
 cv2.imshow("binary", img_bin)
 img_findrect1=img.copy()
 img_findrect2=img.copy()
@@ -80,7 +80,7 @@ img_findmerge1=img.copy()
 img_findmerge2=img.copy()
 
 img_1=threshold(img_ori)
-src = cv2.imread(r"C:\Users\25176\OneDrive\Codes\SPR2024\TestGit\MainWork\robo2.png")
+src = cv2.imread(r"C:\Users\25176\Resources\Projects\SPR_RoboMaster\Traditional_CV\robo2.png")
 open(src)
 close(src)
 

@@ -7,4 +7,4 @@ model = YOLO('yolov8n-pose.pt')  # load a pretrained model (recommended for trai
 
 if __name__ == '__main__':
     # Train the model, device = 0 for GPU, device = 'cpu' for CPU
-    model.train(data='armor-four-points.yaml', epochs=200, imgsz=416, device=0,batch=4)
+    model.train(data='armor-four-points.yaml', epochs=200, imgsz=(416,384), device=0,batch=4)

@@ -1,0 +1,4 @@
+Log file created at: 2023/04/15 11:25:49
+Running on machine: rccv-NUC8i7BEH
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0415 11:25:49.908329  5225 MVCameraBase.cpp:98] Device:(name:MV-SUA133GC#0 sn:041080420537)Lost

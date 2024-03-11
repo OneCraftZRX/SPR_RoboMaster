@@ -1,0 +1,5 @@
+Log file created at: 2023/04/06 21:28:55
+Running on machine: bubing3-NUC11PAHi5
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0406 21:28:55.031936 370184 MVCameraBase.cpp:98] Device:(name:MV-SUA133GC#0 sn:048042110226)Lost
+W0406 21:28:58.291767 370184 MVCameraBase.cpp:118] Device:(name:MV-SUA133GC#0 sn:048042110226)ReConnected, TolCount:1

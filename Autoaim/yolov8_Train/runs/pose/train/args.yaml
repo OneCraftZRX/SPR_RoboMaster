@@ -3,9 +3,12 @@ mode: train
 model: yolov8n-pose.pt
 data: armor-four-points.yaml
 epochs: 200
+time: null
 patience: 50
 batch: 4
-imgsz: 416
+imgsz:
+- 416
+- 384
 save: true
 save_period: -1
 cache: false
@@ -28,6 +31,7 @@ amp: true
 fraction: 1.0
 profile: false
 freeze: null
+multi_scale: false
 overlap_mask: true
 mask_ratio: 4
 dropout: 0.0
@@ -49,6 +53,7 @@ augment: false
 agnostic_nms: false
 classes: null
 retina_masks: false
+embed: null
 show: false
 save_frames: false
 save_txt: false
@@ -94,6 +99,9 @@ fliplr: 0.5
 mosaic: 1.0
 mixup: 0.0
 copy_paste: 0.0
+auto_augment: randaugment
+erasing: 0.4
+crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
 save_dir: runs\pose\train

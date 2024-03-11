@@ -1,0 +1,4 @@
+Log file created at: 2023/06/07 03:50:05
+Running on machine: rccv-NUC8i7BEH
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0607 03:50:05.325172  6890 MVCAMAPI.cpp:350] CameraInit Failed, err:-52,Version:2.1.0.31,FriendlyName:MV-SUA133GC#0,SN:048042110226

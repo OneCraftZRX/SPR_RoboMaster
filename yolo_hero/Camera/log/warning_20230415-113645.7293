@@ -1,0 +1,21 @@
+Log file created at: 2023/04/15 11:36:45
+Running on machine: rccv-NUC8i7BEH
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0415 11:36:45.210867  7306 MVCameraBase.cpp:98] Device:(name:MV-SUA133GC#0 sn:041080420537)Lost
+W0415 11:39:26.545822  7306 MVCameraBase.cpp:118] Device:(name:MV-SUA133GC#0 sn:041080420537)ReConnected, TolCount:1
+W0415 11:41:34.785248  7306 MVCameraBase.cpp:98] Device:(name:MV-SUA133GC#0 sn:041080420537)Lost
+W0415 11:41:39.411681  7306 MVCameraBase.cpp:118] Device:(name:MV-SUA133GC#0 sn:041080420537)ReConnected, TolCount:2
+W0415 11:42:27.586849  7306 MVCameraBase.cpp:98] Device:(name:MV-SUA133GC#0 sn:041080420537)Lost
+W0415 11:42:35.096832  7306 MVCameraBase.cpp:118] Device:(name:MV-SUA133GC#0 sn:041080420537)ReConnected, TolCount:3
+W0415 11:42:37.223723  7306 MVCameraBase.cpp:98] Device:(name:MV-SUA133GC#0 sn:041080420537)Lost
+W0415 11:42:42.929328  7306 MVCameraBase.cpp:118] Device:(name:MV-SUA133GC#0 sn:041080420537)ReConnected, TolCount:4
+W0415 11:50:01.442165  7306 MVCameraBase.cpp:98] Device:(name:MV-SUA133GC#0 sn:041080420537)Lost
+W0415 11:50:13.296248  7306 MVCameraBase.cpp:118] Device:(name:MV-SUA133GC#0 sn:041080420537)ReConnected, TolCount:5
+W0415 11:52:49.574904  7306 MVCameraBase.cpp:98] Device:(name:MV-SUA133GC#0 sn:041080420537)Lost
+W0415 11:52:56.107225  7306 MVCameraBase.cpp:118] Device:(name:MV-SUA133GC#0 sn:041080420537)ReConnected, TolCount:6
+W0415 11:53:04.238468  7306 MVCameraBase.cpp:98] Device:(name:MV-SUA133GC#0 sn:041080420537)Lost
+W0415 11:53:12.971568  7306 MVCameraBase.cpp:118] Device:(name:MV-SUA133GC#0 sn:041080420537)ReConnected, TolCount:7
+W0415 11:55:57.262288  7306 MVCameraBase.cpp:98] Device:(name:MV-SUA133GC#0 sn:041080420537)Lost
+W0415 11:56:02.807518  7306 MVCameraBase.cpp:118] Device:(name:MV-SUA133GC#0 sn:041080420537)ReConnected, TolCount:8
+W0415 12:02:31.439685  7306 MVCameraBase.cpp:98] Device:(name:MV-SUA133GC#0 sn:041080420537)Lost
+W0415 12:02:38.347903  7306 MVCameraBase.cpp:118] Device:(name:MV-SUA133GC#0 sn:041080420537)ReConnected, TolCount:9

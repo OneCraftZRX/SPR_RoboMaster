@@ -1,0 +1,18 @@
+description: Ultralytics YOLOv8s-pose model trained on armor-four-points.yaml
+author: Ultralytics
+license: GPL-3.0 https://ultralytics.com/license
+version: 8.0.66
+stride: 32
+task: pose
+batch: 1
+imgsz:
+- 416
+- 416
+names:
+  0: armor_red_1
+  1: armor_red_3
+  2: armor_red_4
+  3: outpost_red
+kpt_shape:
+- 4
+- 3
